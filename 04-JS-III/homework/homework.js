@@ -187,6 +187,7 @@ var iguales = true;
   return iguales1; // si es true, entonces todos son iguales, si es false, entonces no son iguales
 }
 
+//git push https://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@github.com/MendozaFranco/Prep-Course.git
 
 function mesesDelAño(array) {
   //Dado un array que contiene algunos meses del año desordenados, recorrer el array buscando los meses de 
