@@ -167,13 +167,25 @@ function todosIguales(arreglo) {
   //Escriba la función todosIguales, que indique si todos los elementos de un arreglo son iguales:
   //retornar true, caso contrario retornar false.
   //Escribe tu código aquí  
-  for (var i =0 ; i < arreglo.length - 1; i++) {
-    if(arreglo[i] !== arreglo[i+1]){
-      return false
+//   for (var i =0 ; i < arreglo.length - 1; i++) {
+//     if(arreglo[i] !== arreglo[i+1]){
+//       return false
+//     }
+//   }
+//   return true
+// } 
+var iguales = true;
+  var iguales1= false;
+  for(var i=0; i<arreglo.length;i++){
+    if(arreglo[i]!==arreglo[i+1]){
+      iguales = false;
     }
+   else{
+     iguales1 = true;
+   }
   }
-  return true
-} 
+  return iguales1; // si es true, entonces todos son iguales, si es false, entonces no son iguales
+}
 
 
 function mesesDelAño(array) {
